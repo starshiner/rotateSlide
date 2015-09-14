@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	color:#666;
+	background-color: #fff;
+	font: 12px/1.5 '微软雅黑';
+	padding:50px;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.poster-main{
+	width: 800px;
+	height: 270px;
+	position: relative;
+}
+.poster-main .poster-list{
+	width:800px;
+	height:270px;
+}
+.poster-main a,.poster-main img{
+	display: block;
+}
+.poster-main .poster-list .poster-item{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.poster-main .poster-btn{
+	width:100px;
+	height:270px;
+	position:absolute;
+	top:0;
+	z-index: 10;
+	font-size: 100px;
+
+	cursor:pointer;
+	text-align: center;
+}
+.poster-main .poster-prev-btn{
+	left:0;
+	background: url(../images/btn_l.png) no-repeat center center;
+}
+.poster-main .poster-next-btn{
+	right:0;
+	background: url(../images/btn_r.png) no-repeat center center;
+}
